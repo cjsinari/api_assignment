@@ -6,7 +6,7 @@ error_reporting(E_ALL);
 
 // DB configuration
 $host = 'localhost';
-$dbname = 'user_data';
+$dbname = 'api_assignment';
 $username = 'root';
 $password = '';
 
