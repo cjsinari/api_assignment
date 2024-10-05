@@ -6,7 +6,6 @@
     <title>Document</title>
 </head>
 <body>
-<h2>Register</h2>
 <div class="container mt-5">
     <h2 class="text-center">Register</h2>
     <form action="register.php" method="POST" class="mt-4">
