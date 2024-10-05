@@ -23,6 +23,11 @@ class Database {
         }
     }
 
+    public function getPdo(){
+        return $this->pdo;
+    }
+
+
     public function insertUser($username, $email, $passwordHash, $token) {
         $stmt = $this->pdo->prepare("INSERT INTO users (username, email, password, token) VALUES (:username, :email, :password, :token)");
         $stmt->execute([
